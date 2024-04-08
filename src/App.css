@@ -1,0 +1,79 @@
+@font-face {
+    font-family: basica;
+    src: url('./assets/fonts/basica-industrial.ttf');
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.basica{
+    font-family: basica;
+}
+.gradient{
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(4, 1, 51) 100%);
+}
+.raleway {
+    font-family: "Raleway", sans-serif;
+}
+.shadow-card{
+    box-shadow: 0px 2px 5px 5px #ffffff50;
+}
+.vertical-writing{
+    writing-mode: vertical-rl;
+}
+.member-profile-card .linkedin-section{height: 0; transition: all 0.25s ease-in-out;}
+.member-profile-card:hover .linkedin-section{height: 40px;}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+ * {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .background-gear{
+    -webkit-animation:spin 2s linear infinite;
+    -moz-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite;
+}
+  .background-gear-2{
+    -webkit-animation:spin 5s linear infinite;
+    -moz-animation:spin 5s linear infinite;
+    animation:spin 5s linear infinite;
+}
+  .background-gear-3{
+    -webkit-animation:spin2 5s linear infinite;
+    -moz-animation:spin2 5s linear infinite;
+    animation:spin2 5s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+@-moz-keyframes spin2 { 
+    100% { -moz-transform: rotate(-360deg); } 
+}
+@-webkit-keyframes spin2 { 
+    100% { -webkit-transform: rotate(-360deg); } 
+}
+@keyframes spin2 { 
+    100% { 
+        -webkit-transform: rotate(-360deg); 
+        transform:rotate(-360deg); 
+    } 
+}
