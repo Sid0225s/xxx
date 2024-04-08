@@ -17,8 +17,8 @@ import teamImage416 from "../assets/Team/FinalYear/Satvik Bhatnagar.jpg";
 import teamImage417 from "../assets/Team/FinalYear/Sudhanshu.jpg";
 import teamImage418 from "../assets/Team/FinalYear/Shabnam.jpg";
 import teamImage419 from "../assets/Team/FinalYear/Virat Mahendra.jpg";
-import coreImage1 from "../assets/Team/ThirdYear/AnmolSingh.jpg";
-import coreImage2 from "../assets/Team/ThirdYear/Asif Khan.jpg";
+import coreImage1 from "../assets/Team/ThirdYear/WhatsApp Image 2024-04-07 at 19.57.55_cd9a2b1d.jpg";
+import coreImage2 from "../assets/Team/ThirdYear/WhatsApp Image 2024-04-07 at 19.57.40_f9e99a44.jpg";
 import projectImage31 from "../assets/Team/ThirdYear/sid.jpg";
 import thirdImage1 from "../assets/Team/ThirdYear/Adityansh Thakur.jpeg";
 import thirdImage2 from "../assets/Team/ThirdYear/Aayush Sharma .png";
@@ -43,6 +43,7 @@ import secImage7 from "../assets/Team/SecondYear/IMG_3828 - SALONI SHARMA RAJESH
 import secImage9 from "../assets/Team/SecondYear/Screenshot_2024-04-05-21-37-25-181_com.miui.gallery - EKTA SANJEEV SANYAL.jpg";
 import secImage8 from "../assets/Team/SecondYear/e8a42bbe-051e-4f20-8cd0-d969794a58af - SALONI SHARMA RAJESH KUMAR.jpg";
 import secImage12 from "../assets/Team/SecondYear/Screenshot_2024-04-05-23-38-36-588_com.miui.gallery - LAKSHYA CHAUHAN NIRMAL SINGH.jpg";
+import secImage13 from "../assets/Team/SecondYear/me - RAJENDER KUMAR HARI SINGH.jpg";
 import firstImage1 from "../assets/Team/FirstYear/IMG_20240401_223155_615 - SANGAM THAKUR.jpg";
 import firstImage2 from "../assets/Team/FirstYear/IMG_20231022_014753_264 - Piyush.jpg";
 import firstImage3 from "../assets/Team/FirstYear/IMG_20240405_090216 - VIVEK KUMAR SAHU.jpg";
@@ -327,6 +328,12 @@ export default function Team() {
       position: "Final Year",
       linkedIn: "https://in.linkedin.com/in/arora-jasjot",
     },
+    {
+      name: "Rajender Kumar",
+      img: secImage13,
+      position: "Final Year",
+      linkedIn: "https://in.linkedin.com/in/arora-jasjot",
+    },
   ];
   const team4 = [
     {
@@ -456,7 +463,10 @@ export default function Team() {
               </div>
               <div className=" flex flex-row justify-center">
                 {core.map((card, index) => (
-                  <div key={index} className="flex justify-center items-center space-x-2">
+                  <div
+                    key={index}
+                    className="flex justify-center items-center space-x-2"
+                  >
                     <div
                       className={` bg-white rounded-md max-w-[75%] xs2:max-w-max p-2`}
                     >
